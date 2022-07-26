@@ -12,3 +12,4 @@ require (
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 )
+replace google.golang.org/grpc => google.golang.org/grpc v1.29.0

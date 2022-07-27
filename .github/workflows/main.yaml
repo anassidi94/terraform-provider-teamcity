@@ -1,4 +1,4 @@
-*name: Publish binaries on release
+name: Publish binaries on release
 on:
   push:
     tags:

@@ -5,6 +5,7 @@ go 1.13
 require (
 	github.com/cvbarros/go-teamcity v1.1.0
 	github.com/dghubble/sling v1.3.0 // indirect
+	github.com/gorilla/websocket v1.2.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.9.0
 	github.com/mattn/go-isatty v0.0.8 // indirect

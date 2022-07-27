@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: run go get command
-        run: get -u github.com/gobuffalo/buffalo-auth
+        run: go get -u github.com/gobuffalo/buffalo-auth
       - uses: ./.github/builder
       - uses: actions/upload-artifact@v1
         with:

@@ -2,6 +2,8 @@ module github.com/cvbarros/terraform-provider-teamcity
 
 go 1.13
 
+replace google.golang.org/grpc => google.golang.org/grpc v1.29.0
+
 require (
 	github.com/cvbarros/go-teamcity v1.1.0
 	github.com/dghubble/sling v1.3.0 // indirect
@@ -12,4 +14,4 @@ require (
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 )
-replace google.golang.org/grpc => google.golang.org/grpc v1.29.0
+

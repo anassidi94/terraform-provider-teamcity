@@ -1,4 +1,4 @@
-name: Publish binaries on release
+*name: Publish binaries on release
 on:
   push:
     tags:
@@ -8,7 +8,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      GO111MODULE: off
+      GO111MODULE: on
     steps:
       - uses: actions/checkout@v1
       - uses: ./.github/builder

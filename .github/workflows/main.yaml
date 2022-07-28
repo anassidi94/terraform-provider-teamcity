@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./.github/builder
         with:
-	  args: linux/amd64
+          args: linux/amd64
       - uses: actions/upload-artifact@v1
         with:
           name: binaries

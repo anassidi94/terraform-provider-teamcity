@@ -15,8 +15,11 @@ require (
 	github.com/microcosm-cc/bluemonday v1.0.19 // indirect
 	github.com/motemen/go-nuts v0.0.0-20190725124253-1d2432db96b0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/spf13/afero v1.2.2 // indirect
+	github.com/stretchr/testify v1.8.0 // indirect
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
+	github.com/zclconf/go-cty v1.2.1 // indirect
 	golang.org/x/net v0.0.0-20220726230323-06994584191e // indirect
 	golang.org/x/sys v0.0.0-20220727055044-e65921a090b8 // indirect
 	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035 // indirect
